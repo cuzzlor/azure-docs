@@ -988,7 +988,7 @@ example:
 | -------- | -------- | -------- |
 |`uri`| string (uri) | uri of the logo (optional if image is specified) |
 |`description` | string | the description of the logo |
-|`image` | string | the base-64 encoded image (optional if uri is specified) |
+|`image` | string | the base-64 encoded image ([don't use this because it's broken and you'll get an incorrect validation error returned](https://learn.microsoft.com/en-us/answers/questions/938142/support-for-svg-base64-image-with-verified-credent)) |
 
 #### displayConsent type
 
